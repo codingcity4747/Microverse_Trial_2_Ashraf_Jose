@@ -1,0 +1,46 @@
+body{
+  background-color: lightblue;
+  font-family: "Poppins", sans-serif;
+  color: rgb(243, 243, 243);
+}
+main{
+  margin: 0 auto;
+  width: 60vw;
+  
+}
+form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background:rgba(0,0,139,0.7);
+  font-weight: 400;
+  font-size: 20px;
+}
+
+#email, #name, #number, #dropdown{
+  width: 90%;
+}
+
+label, input[type=radio]{
+  align-self: flex-start;
+  padding: 20px 20px 5px 20px;
+}
+
+/*
+h1{
+  margin: 0 auto;
+  text-align: center;
+}
+#description{
+  margin: 0 auto;
+  text-align: center;
+
+
+}
+#survey-form{
+  margin: 0 auto;
+  text-align: center;
+
+
+}/*
