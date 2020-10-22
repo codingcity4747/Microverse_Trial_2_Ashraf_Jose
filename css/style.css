@@ -1,4 +1,10 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap);
+
 body{
+  background-image: url(https://sdtimes.com/wp-content/uploads/2017/10/IMG_1463.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
   background-color: lightblue;
   font-family: "Poppins", sans-serif;
   color: rgb(243, 243, 243);
@@ -74,5 +80,10 @@ textarea {
     border-radius: 0.3rem;
 }
 
+#background{
+  background-color: rgba(178,102,255,0.5);
+  height: 100%;
+  width: 100%;
+}
 
 
