@@ -6,7 +6,6 @@ body{
 main{
   margin: 0 auto;
   width: 60vw;
-  
 }
 form{
   display: flex;
@@ -16,31 +15,64 @@ form{
   background:rgba(0,0,139,0.7);
   font-weight: 400;
   font-size: 20px;
+  border-radius: 0.25rem;
+  margin-bottom: 50px;
 }
 
-#email, #name, #number, #dropdown{
+h1, p{
+    margin: 0 auto;
+    width:fit-content;
+    text-align: center;
+}
+
+h1 {
+    padding:40px 0 15px 0;
+    font-weight: 500;
+}
+
+p {
+    padding:0 0 15px 0; 
+    font-style: italic;
+    font-size: 18px;
+    font-weight: 200;
+}
+
+#email, #name, #number, #dropdown, #feature{
   width: 90%;
+  height: 30px;
+  border : 1px solid transparent;
+  border-radius: 0.3rem;
+  text-indent: 10px;
 }
 
-label, input[type=radio]{
+label{
   align-self: flex-start;
-  padding: 20px 20px 5px 20px;
+  padding: 20px 20px 5px 40px;
 }
 
-/*
-h1{
-  margin: 0 auto;
-  text-align: center;
+#radio-option {
+    padding: 30px 20px 5px 40px;
+    line-height: inherit;   
 }
-#description{
-  margin: 0 auto;
-  text-align: center;
 
-
+textarea {
+    width:90%;
+    padding-bottom: 20px;
+    text-indent: 5px;
+    line-height: 30px;
+    font-family: "Poppins", sans-serif;
 }
-#survey-form{
-  margin: 0 auto;
-  text-align: center;
+
+#submit {
+    width: 90%;
+    text-align: center;
+    background-color: #37af65;
+    color:white;
+    border:transparent;
+    margin : 30px 0 50px 0;
+    padding: 15px 0;
+    border-radius: 0.3rem;
+}
 
 
-}/*
+
